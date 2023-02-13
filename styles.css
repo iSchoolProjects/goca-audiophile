@@ -1,0 +1,149 @@
+span {
+    color: #D87D4A;
+}
+
+button {
+    color: #D87D4A;
+}
+
+@media screen and (min-width: 390px) {
+    .background-image {
+        background-image: url(./assets/home/mobile/image-header.jpg);
+        background-repeat: no-repeat;
+        min-height: 75vh;
+        background-size: cover;
+        background-position: -5px 0;
+        background-repeat: repeat-x;
+    }
+
+    .letter-spacing {
+        letter-spacing: 5px;
+    }
+
+    .pattern-circles {
+        background-image: url(./assets/home/desktop/pattern-circles.svg);
+        background-repeat: no-repeat;
+        background-size: 648px 602px;
+        background-position: -129px -138px;
+
+    }
+
+    .shopping-cards {
+        left: 0;
+        right: 0;
+    }
+
+    .card-background {
+        background-image: url(./assets/home/mobile/image-speaker-zx7.jpg);
+        background-repeat: no-repeat;
+        min-height: 48vh;
+        background-size: cover;
+        background-repeat: repeat-x;
+        background-position: -41px -27px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .background-image {
+        background-image: url(./assets/home/tablet/image-header.jpg);
+        background-repeat: no-repeat;
+        min-height: 70vh;
+        background-size: cover;
+        background-position: -15px 0;
+        background-repeat: repeat-x;
+    }
+
+    .shopping-cards {
+        margin: unset;
+        left: 0;
+        right: 0;
+    }
+
+    .pattern-circles {
+        background-image: url(./assets/home/desktop/pattern-circles.svg);
+        background-repeat: no-repeat;
+        background-size: 1026px 1000px;
+        background-position: -152px -285px;
+    }
+
+    .navbar-collapse {
+        flex-basis: auto;
+    }
+
+    .letter-spacing {
+        letter-spacing: 10px;
+    }
+
+    .card-background {
+        background-image: url(./assets/home/desktop/image-speaker-zx7.jpg);
+        background-repeat: no-repeat;
+        min-height: 20vh;
+        background-size: cover;
+        background-repeat: repeat-x;
+        background-position: 0 -26px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1100px;
+    }
+
+
+    .background-image {
+        background-image: url(./assets/home/desktop/image-hero.jpg);
+      
+    }
+
+    .pattern-circles {
+        background-image: url(./assets/shared/desktop/image-category-thumbnail-speakers.png), url(./assets/home/desktop/pattern-circles.svg);
+        background-repeat: no-repeat;
+        background-size: 45% 114%, 639px 614px;
+        background-position: 14px 98px, -20px -34px;
+    }
+
+
+    .zx9-button {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .letter-spacing {
+        letter-spacing: 10px;
+    }
+
+}
+
+
+.button-bg {
+    background-color: #D87D4A;
+}
+
+.shopping-card {
+    background: linear-gradient(180deg, #ffff 30%, #F1F1F1 30%);
+    height: 100%;
+    border: none;
+}
+
+.card-img-height {
+    height: 240px;
+}
+
+.speaker-card-bg {
+    background-color: #D87D4A;
+}
+
+.letter-spacing-color {
+    color: #D87D4A;
+}
+
+.checkout-card-bg {
+    background-color: #F1F1F1;
+}     
