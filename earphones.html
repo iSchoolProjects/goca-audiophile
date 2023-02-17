@@ -43,8 +43,138 @@
       <div class="header">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 mx-auto">
+            <div class="col-12">
               <div class="row border-bottom border-light-subtle pt-2 pb-3">
+                <nav
+                  class="navbar navbar-dark bg-black fixed-top d-md-block d-lg-none d-block"
+                >
+                  <div class="container-fluid">
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasDarkNavbar"
+                      aria-controls="offcanvasDarkNavbar"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h4 class="text-white me-md-auto col-md-2 col-5 ms-md-4">
+                      audiophile
+                    </h4>
+                    <button
+                      type="button"
+                      class="button-bg bg-transparent border-0 text-white ms-lg-5 ps-lg-5 pe-3 pt-2 pb-2 col-md-1 col-1"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      <i class="bi bi-cart3 text-white"></i>
+                    </button>
+                  </div>
+                </nav>
+
+                <div
+                  class="offcanvas offcanvas-top text-black bg-light"
+                  tabindex="-1"
+                  id="offcanvasDarkNavbar"
+                  aria-labelledby="offcanvasDarkNavbarLabel"
+                >
+                  <div class="offcanvas-header">
+                    <button
+                      type="button"
+                      class="btn-close btn-close-dark"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul
+                      class="navbar-nav d-md-flex flex-md-row d-flex flex-column ms-md-5"
+                    >
+                      <li class="nav-item">
+                        <div class="row">
+                          <div class="col-md-10">
+                            <div class="card shopping-card">
+                              <img
+                                src="./assets/shared/desktop/image-category-thumbnail-headphones.png"
+                                class="card-img-top w-100"
+                                alt="..."
+                              />
+                              <div
+                                class="card-body cards-text text-center text-uppercase d-flex flex-column justify-content-end"
+                              >
+                                <h6 class="card-text">Headphones</h6>
+                                <a
+                                  class="text-decoration-none text-secondary-emphasis"
+                                  href="./headphones.html"
+                                >
+                                  shop
+                                  <img
+                                    src="./assets/shared/desktop/icon-arrow-right.svg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="row h-100">
+                          <div class="col-md-10 mt-md-0 mt-4">
+                            <div class="card shopping-card">
+                              <img
+                                src="./assets/shared/desktop/image-category-thumbnail-speakers.png"
+                                class="card-img-top w-100"
+                                alt="..."
+                              />
+                              <div
+                                class="card-body cards-text text-center text-uppercase d-flex flex-column justify-content-end"
+                              >
+                                <h6 class="card-text">Speakers</h6>
+                                <a
+                                  class="text-decoration-none text-secondary-emphasis"
+                                  href="./speakers.html"
+                                >
+                                  shop
+                                  <img
+                                    src="./assets/shared/desktop/icon-arrow-right.svg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="row h-100">
+                          <div class="col-md-10 mt-md-0 mt-4">
+                            <div class="card shopping-card">
+                              <img
+                                src="./assets/shared/desktop/image-category-thumbnail-earphones.png"
+                                class="card-img-top w-100"
+                                alt="..."
+                              />
+                              <div
+                                class="card-body cards-text text-center text-uppercase d-flex flex-column justify-content-end"
+                              >
+                                <h6 class="card-text">Earphones</h6>
+                                <a
+                                  class="text-decoration-none text-secondary-emphasis"
+                                  href="./earphones.html"
+                                >
+                                  shop
+                                  <img
+                                    src="./assets/shared/desktop/icon-arrow-right.svg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
                 <nav class="navbar navbar-expand-lg">
                   <div class="container-fluid">
                     <button
@@ -58,7 +188,9 @@
                     >
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <h4 class="text-white me-md-auto col-md-2 col-5 ms-md-4">
+                    <h4
+                      class="text-white me-md-auto col-md-2 col-5 ms-md-4 d-none d-md-none d-lg-block"
+                    >
                       audiophile
                     </h4>
                     <div
@@ -99,108 +231,20 @@
                     </div>
                     <button
                       type="button"
-                      class="button-bg bg-transparent border-0 text-white ms-lg-5 ps-lg-5 pe-3 pt-2 pb-2 col-md-1 col-1"
+                      class="button-bg bg-transparent border-0 text-white ms-lg-5 ps-lg-5 pe-3 pt-2 pb-2 col-md-1 col-1 d-none d-md-none d-lg-block"
                       data-bs-toggle="modal"
                       data-bs-target="#exampleModal"
                     >
                       <i class="bi bi-cart3 text-white"></i>
                     </button>
-
-                    <div
-                      class="collapse navbar-collapse ms-5 col-7"
-                      id="navbarTogglerDemo02"
-                    >
-                      <div
-                        class="row mb-5 shopping-cards mx-auto position-fixed d-lg-none"
-                      >
-                        <div class="col-12 mt-4 pt-4 mb-5 pb-5 bg-white">
-                          <div class="row">
-                            <div class="col-md-4">
-                              <div class="card shopping-card">
-                                <img
-                                  src="./assets/shared/desktop/image-category-thumbnail-headphones.png"
-                                  class="card-img-top card-img-height"
-                                  alt="..."
-                                />
-                                <div
-                                  class="card-body cards-text text-center text-uppercase"
-                                >
-                                  <h6 class="card-text">Headphones</h6>
-                                  <a
-                                    class="text-decoration-none text-secondary-emphasis"
-                                    href="./headphones.html"
-                                  >
-                                    shop
-                                    <img
-                                      src="./assets/shared/desktop/icon-arrow-right.svg"
-                                      alt=""
-                                  /></a>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="col-md-4 mt-md-0 mt-4">
-                              <div class="card shopping-card">
-                                <img
-                                  src="./assets/shared/desktop/image-category-thumbnail-speakers.png"
-                                  class="card-img-top card-img-height"
-                                  alt="..."
-                                />
-                                <div
-                                  class="card-body cards-text text-center text-uppercase"
-                                >
-                                  <h6 class="card-text">Speakers</h6>
-                                  <a
-                                    class="text-decoration-none text-secondary-emphasis"
-                                    href="./speakers.html"
-                                  >
-                                    shop
-                                    <img
-                                      src="./assets/shared/desktop/icon-arrow-right.svg"
-                                      alt=""
-                                  /></a>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="col-md-4 mt-md-0 mt-4">
-                              <div class="card shopping-card">
-                                <img
-                                  src="./assets/shared/desktop/image-category-thumbnail-earphones.png"
-                                  class="card-img-top card-img-height"
-                                  alt="..."
-                                />
-                                <div
-                                  class="card-body cards-text text-center text-uppercase"
-                                >
-                                  <h6 class="card-text">Earphones</h6>
-                                  <a
-                                    class="text-decoration-none text-secondary-emphasis"
-                                    href="./earphones.html"
-                                  >
-                                    shop
-                                    <img
-                                      src="./assets/shared/desktop/icon-arrow-right.svg"
-                                      alt=""
-                                  /></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </nav>
               </div>
-              <h3
-                class="text-center p-md-5 ps-5 pe-5 pt-4 pb-4 text-white text-uppercase"
-              >
-                Earphones
-              </h3>
             </div>
           </div>
+          <!-- Button trigger modal -->
 
+          <!-- Modal -->
           <div
             class="modal fade"
             id="exampleModal"
@@ -220,18 +264,18 @@
                   <div class="row">
                     <div class="col-12">
                       <div class="row">
-                        <div class="col-2 ms-3">
+                        <div class="col-md-2 col-3 ms-md-3">
                           <img
                             class="w-100"
                             src="./assets/cart/image-xx99-mark-two-headphones.jpg"
                             alt=""
                           />
                         </div>
-                        <div class="col-4 me-5">
+                        <div class="col-md-4 col-5 me-md-5">
                           <h6>XX99 MK II</h6>
                           <p class="text-muted">$2,999</p>
                         </div>
-                        <div class="col-3 ms-5 mt-3">
+                        <div class="col-md-3 col-4 ms-md-5 mt-3">
                           <a
                             class="text-decoration-none text-dark bg-body-secondary p-1"
                             href="#"
@@ -242,18 +286,18 @@
                       </div>
 
                       <div class="row mt-2">
-                        <div class="col-2 ms-3">
+                        <div class="col-md-2 col-3 ms-md-3">
                           <img
                             class="w-100"
                             src="./assets/cart/image-xx59-headphones.jpg"
                             alt=""
                           />
                         </div>
-                        <div class="col-4 me-5">
+                        <div class="col-md-4 col-5 me-md-5">
                           <h6>XX59</h6>
                           <p class="text-muted">$899</p>
                         </div>
-                        <div class="col-3 ms-5 mt-3">
+                        <div class="col-md-3 col-4 ms-md-5 mt-3">
                           <a
                             class="text-decoration-none text-dark bg-body-secondary p-1"
                             href="#"
@@ -264,18 +308,18 @@
                       </div>
 
                       <div class="row mt-2">
-                        <div class="col-2 ms-3">
+                        <div class="col-md-2 col-3 ms-md-3">
                           <img
                             class="w-100"
                             src="./assets/cart/image-yx1-earphones.jpg"
                             alt=""
                           />
                         </div>
-                        <div class="col-4 me-5">
+                        <div class="col-md-4 col-5 me-md-5">
                           <h6>YX1</h6>
                           <p class="text-muted">$599</p>
                         </div>
-                        <div class="col-3 ms-5 mt-3">
+                        <div class="col-md-3 col-4 ms-md-5 mt-3">
                           <a
                             class="text-decoration-none text-dark bg-body-secondary p-1"
                             href="#"
@@ -284,11 +328,11 @@
                           ></a>
                         </div>
                       </div>
-                      <div class="row mt-3 ms-2">
+                      <div class="row mt-3 ms-md-2">
                         <div class="col-9">
                           <h6 class="text-muted text-uppercase">Total</h6>
                         </div>
-                        <div class="col-3 ps-4">
+                        <div class="col-3 ps-md-4 pe-md-0 pe-3">
                           <h5>$5,396</h5>
                         </div>
                       </div>
@@ -313,6 +357,11 @@
           </div>
         </div>
       </div>
+      <h3
+        class="text-center p-md-5 ps-5 pe-5 pt-4 pb-4 text-white text-uppercase"
+      >
+        Earphones
+      </h3>
     </div>
 
     <div class="container">
