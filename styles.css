@@ -6,7 +6,7 @@ button {
     color: #D87D4A;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 768px) {
     .background-image {
         background-image: url(/assets/home/mobile/image-header.jpg);
         background-repeat: no-repeat;
