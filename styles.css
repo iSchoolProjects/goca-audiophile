@@ -10,9 +10,9 @@ button {
     .background-image {
         background-image: url(/assets/home/mobile/image-header.jpg);
         background-repeat: no-repeat;
-        min-height: 75vh;
+        min-height: 85vh;
         background-size: cover;
-        background-position: -5px 0;
+        background-position: -25px 0;
         background-repeat: repeat-x;
     }
 
